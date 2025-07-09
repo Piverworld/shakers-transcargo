@@ -74,9 +74,9 @@ const Footer: React.FC = () => {
                 <MessageCircleMore className="text-[#FF6F3D] w-6 h-6 mr-4" />
                 <p>
                   <a
-                    href="https://wa.me/4915731701986"
+                    href=""
                     className="text-white hover:cursor-pointer">
-                    +49 1573 1701986
+                    Whatsapp Number goes here....
                   </a>
                   {/* &nbsp;/&nbsp;
                   <a
@@ -90,16 +90,16 @@ const Footer: React.FC = () => {
                 <Phone className="text-[#FF6F3D] w-6 h-6 mr-2" />
                 <p>
                   <a
-                    href="tel:+22892774686"
+                    href="tel:"
                     className="no-underline">
-                    +228 92 77 4686
+                    Number goes here
                   </a>
-                  /&nbsp;
+                  {/* /&nbsp;
                   <a
                     href="tel:+233550945019"
                     className="no-underline">
                     +233 55 094 5019
-                  </a>
+                  </a> */}
                 </p>
               </div>
             </div>

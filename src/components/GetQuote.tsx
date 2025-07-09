@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import { Phone, MessageCircleMore } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 import StatusModal from "./QuoteModal";
@@ -91,17 +90,16 @@ const GetQuote: React.FC = () => {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <div>
             <p className="mb-4 text-xl font-bold text-secondary animate-on-scroll">
-              Find the Best Shipping Solution
-            </p>
+              Best Railway Solutions       </p>
             <h2 className="text-4xl font-bold text-[#000066] mb-2 animate-on-scroll">
-              Request a Free Quote
+              Together We Control The Rails
             </h2>
             <p className="mb-6 text-gray-700 animate-on-scroll">
               Ready to ship? Simply fill out our easy-to-use form with details
               about your shipment. Our expert team will quickly analyse your
               request and provide you with a competitive rate.
             </p>
-            <div className="bg-[#000066] text-white p-6 rounded-lg animate-on-scroll lg:inline-block">
+            {/* <div className="bg-[#000066] text-white p-6 rounded-lg animate-on-scroll lg:inline-block">
               <h3 className="mb-2 text-xl font-semibold">Contact us Today!</h3>
               <span className="flex flex-col items-start gap-4">
                 <p>Call us</p>
@@ -131,7 +129,7 @@ const GetQuote: React.FC = () => {
                   </a>
                 </p>
               </span>
-            </div>
+            </div> */}
             <div className="pt-4 animate-on-scroll">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9229720379217!2d1.2746250760144073!3d6.1410494938458955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e151dd809f47%3A0x5dd2e020c3068793!2sPort!5e0!3m2!1sen!2sgh!4v1729771667747!5m2!1sen!2sgh"
@@ -145,7 +143,7 @@ const GetQuote: React.FC = () => {
           {successMessage && (
             <StatusModal
               isOpen={true}
-              onClose={() => {}}
+              onClose={() => { }}
               status="success"
               message="Success"
               subtext={successMessage}
@@ -154,7 +152,7 @@ const GetQuote: React.FC = () => {
           {errorMessage && (
             <StatusModal
               isOpen={true}
-              onClose={() => {}}
+              onClose={() => { }}
               status="failure"
               message="Failed"
               subtext={errorMessage}

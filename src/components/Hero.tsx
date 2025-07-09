@@ -6,7 +6,7 @@ const slides = [
   {
     background: '/train4.jpg',
     heading: 'SHAKERS TRANSCARGO',
-    subheading: 'Choose only the best!',
+    subheading: 'Choose Only The Best!',
     description: 'Maximum efficiency and smooth transportation - so that your transports remain on time and profitable.'
   },
   {
