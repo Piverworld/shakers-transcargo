@@ -1,6 +1,6 @@
 import React from "react";
 import { Mail, MapPin, MessageCircleMore, Phone } from "lucide-react";
-import ognLogoWhite from "/src/images/Logo-OGN-white.png";
+import ognLogoWhite from "/shakers-transcargo-logo white.png";
 
 const Footer: React.FC = () => {
   return (
@@ -16,9 +16,7 @@ const Footer: React.FC = () => {
               className="h-24 mb-4"
             />
             <p className="max-w-xs text-sm">
-              OGN Shipping is your trusted partner for global maritime
-              solutions, providing reliable and efficient shipping services
-              worldwide.
+              Shakers Transcargo, for all your first class train services and specialists. Safe, Smooth and Reliable.
             </p>
           </div>
           <div>
@@ -69,7 +67,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex items-center mb-2">
               <MapPin className="text-[#FF6F3D] w-8 h-8 mr-2" />
-              <p>Zone Portuaire, 06BP 62215 Lome Togo, derrière ECOBANK ATI</p>
+              <p>Location Goes here....</p>
             </div>
             <div className="mb-2">
               <div className="inline-flex ">
@@ -108,14 +106,14 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-2">
               <Mail className="text-[#FF6F3D] w-6 h-6 mr-4" />
               <p>
-                <a href="mailto:info@ognshipping.com">info@ognshipping.com</a>
+                <a href="mailto:info@ognshipping.com">info@shakerstranscargo.com</a>
               </p>
             </div>
           </div>
         </div>
         <div className="pt-8 mt-8 text-center border-t border-gray-700">
           <p>
-            &copy; {new Date().getFullYear()} OGN Shipping. All rights reserved.{" "}
+            &copy; {new Date().getFullYear()} Shakers Transcargo. All rights reserved.{" "}
             <a
               href="https://piverworld.com"
               className="text-white underline hover:cursor-pointer">

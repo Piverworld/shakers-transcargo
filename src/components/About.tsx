@@ -1,5 +1,5 @@
 import React from "react";
-import { Globe, Users, Phone, MessageCircleMore } from "lucide-react";
+import { Globe, Users } from "lucide-react";
 
 const About: React.FC = () => {
   return (
@@ -18,34 +18,27 @@ const About: React.FC = () => {
           <div>
             <div className="animate-on-scroll">
               <div className="mb-6 ">
-                <h2 className="mb-4 text-xl font-semibold text-secondary">
+                <p className="mb-4 text-xl font-semibold text-secondary">
                   About Us
-                </h2>
-                <p className="text-4xl font-bold lg:text-6xl text-primary">
-                  Quick Transport and Logistics Solutions
                 </p>
+                <h2 className="text-4xl font-bold lg:text-6xl text-primary">
+                  Your Competent Partner for Qualified Railway Staff
+                </h2>
               </div>
               <p className="mb-4 text-gray-700">
-                With our management office in Lome, Togo and operations in the
-                Port of LOME, OGN Shipping is now established as fully
-                accredited Shipping Agents. We have access to international ship
-                owners calling regularly to the Port of Lome. OGN operates from
-                a bonded warehouse allowing ease of access to the Port for
-                faster mobilization of equipment for all underwater services.
+                For years Shakers Transcargo have been passionate about providing a world-class workforce in the rail industry. As an experienced team, Shakers Transcargo understands precisely the specific challenges and requirements of the logistics and transportation industry. We are not just a personnel service provider – we are your strategic partner for sustainable personnel solutions.
               </p>
               <p className="mb-6 text-gray-700">
-                Please contact OGN for any marine supplies. Our Agency team will
+                Please contact Shakers Transcargo for all railway logistics. Shakers Transcargo team will
                 be on hand 24/7 to assist.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 animate-on-scroll">
               <div className="p-6 transition duration-300 transform bg-white rounded-lg hover:scale-105">
                 <Globe className="text-[#FF6F3D] w-12 h-12 mb-4" />
-                <h3 className="mb-2 text-xl font-semibold">Global Network</h3>
+                <h3 className="mb-2 text-xl font-semibold">Industry Experts</h3>
                 <p className="text-gray-600">
-                  Leveraging our extensive network of partners and agents, we
-                  ensure efficient and reliable shipping solutions across major
-                  ports worldwide.
+                  Shakers Transcargo understand the challenges of modern supply chains and develop intelligent concepts that optimize time, cost and resources. Our holistic approach guarantees smooth rail processes.
                 </p>
               </div>
               <div className="p-6 transition duration-300 transform bg-white rounded-lg hover:scale-105">
@@ -64,59 +57,22 @@ const About: React.FC = () => {
         </div>
         <div>
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="mt-24 lg:my-48 animate-on-scroll">
+            <div className="mt-24 lg:my-24 animate-on-scroll">
               <h2 className="mb-4 text-xl font-semibold text-secondary">
-                About OGN Shipping
+                About Shakers Transcargo
               </h2>
               <p className="mb-2 text-4xl font-bold lg:text-5xl text-primary">
-                Your Trusted Partner for Global Maritime Solutions
+                Providing Innovative Logistics Solutions
               </p>
               <p className="mb-8 text-gray-700">
-                OGN Shipping is a leading provider of comprehensive maritime
-                services, dedicated to exceeding client expectations with
-                tailored solutions, a global network, and unwavering commitment
-                to excellence.
+                Shakers Transcargo have been combining competence with a passion for the transport sector for years. Our company stands for tailor-made solutions that go beyond traditional freight transport, i.e from planning to delivery.
               </p>
               <p className="mb-8 text-gray-700">
-                We currently operate in more than 7 African countries; Ghana,
-                Togo, Benin, Nigeria, Senegal, Cameroon, Equatorial Guinea and
-                Cote D'Ivoire.
+                What sets us apart? Our Unique combination of state-of-the-art technology, experienced specialists and a close-knit European partner network that leads even the most complex transport projects to success.
               </p>
-              <div className="bg-[#000066] text-white px-6 py-4 rounded-lg inline-block">
-                <h3 className="mb-2 text-xl font-semibold">
-                  Contact Our Experts
-                </h3>
-                <span className="flex flex-col items-start gap-4">
-                  <p>Call us</p>
-                  <p className="inline-flex items-center">
-                    <Phone className="mr-2" />
-                    <p>
-                      <a
-                        href="tel:+22892774686"
-                        className="no-underline">
-                        +228 92 77 4686
-                      </a>
-                      /&nbsp;
-                      <a
-                        href="tel:+233550945019"
-                        className="no-underline">
-                        +233 55 094 5019
-                      </a>
-                    </p>{" "}
-                  </p>
-                  <p>or Send us a message</p>
-                  <p className="inline-flex items-center">
-                    <MessageCircleMore className="mr-2" />
-                    <a
-                      href="https://wa.me/4915731701986"
-                      className="text-white hover:cursor-pointer">
-                      +49 1573 1701986
-                    </a>
-                  </p>
-                </span>
-              </div>
+
             </div>
-            <div className="grid grid-cols-1 gap-6 mb-24 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-6 mb-12 sm:grid-cols-2">
               <div className="p-8 text-center bg-white rounded-md shadow-md animate-on-scroll">
                 <h3 className="text-4xl font-bold text-[#FF6F3D] mb-2">7+</h3>
                 <p className="text-gray-600">African Countries</p>

@@ -5,15 +5,15 @@ import { ChevronRight } from 'lucide-react';
 const slides = [
   {
     background: '/train4.jpg',
-    heading: 'OGN SHIPPING',
-    subheading: 'Reliable Global Shipping Solutions',
-    description: 'We are the torch bearers in the shipping industry and in a pole position 24/7 providing easy and flexible services.'
+    heading: 'SHAKERS TRANSCARGO',
+    subheading: 'Choose only the best!',
+    description: 'Maximum efficiency and smooth transportation - so that your transports remain on time and profitable.'
   },
   {
     background: '/trains2.jpg',
-    heading: 'OGN Shipping',
-    subheading: 'Your Trusted Partner in Seamless Logistics',
-    description: 'We are committed to maximising Productivity and Efficiency by delivering uniquely design services to our cherished clients globally.'
+    heading: 'SHAKERS TRANSCARGO',
+    subheading: 'Trained Expert Drivers',
+    description: 'Your entry into future proof profession is with us. We train you as a qualified train driver and place you on renowned railway companies.'
   }
 ];
 
@@ -37,17 +37,17 @@ const Hero: React.FC = () => {
           style={{ backgroundImage: `url(${slide.background})` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />
-          <div className="absolute inset-0 content-center mx-auto max-width-1140 animate-on-scroll">
+          <div className="absolute inset-0 content-center mx-auto max-width-1140">
             <div className="max-w-2xl px-4 text-white">
               <p className="mb-4 text-xl font-semibold text-secondary">{slide.heading}</p>
-              <h2 className="mb-6 text-5xl lg:text-6xl font-bold">{slide.subheading}</h2>
+              <h2 className="mb-6 text-5xl font-bold lg:text-6xl">{slide.subheading}</h2>
               <p className="mb-8 text-xl">{slide.description}</p>
               <div className="flex space-x-4">
                 <a href="#get-quote" className="bg-[#FF6F3D] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#FF8F5D] transition duration-300 animate-fade-in-up animation-delay-900 flex items-center">
-                  Get a Quote <ChevronRight className="ml-2" />
+                  Contact Us <ChevronRight className="ml-2" />
                 </a>
                 <a href="#about" className="bg-white text-[#000066] px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 animate-fade-in-up animation-delay-900 flex items-center">
-                  Read More <ChevronRight className="ml-2" />
+                  Learn More <ChevronRight className="ml-2" />
                 </a>
               </div>
             </div>
