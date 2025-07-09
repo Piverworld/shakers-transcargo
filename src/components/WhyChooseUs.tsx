@@ -21,21 +21,24 @@ const reasons = [
 
 const WhyChooseUs: React.FC = () => {
   return (
-    <section id="why-choose-us" className="py-20 bg-white">
-      <div className="container max-width-1140 mx-auto px-4">
+    <section id="why-choose-us" className="relative py-20 overflow-hidden bg-white ">
+      <div className="w-fit h-fit">
+        <img src="/world_snippet.png" alt="World Map Silhouette" width={600} height={800} className="absolute top-60 -left-40" />
+      </div>
+      <div className="container px-4 mx-auto max-width-1140">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
           <div>
-            <p className="font-bold text-xl text-secondary animate-on-scroll">Our Strengths</p>
-            <h2 className="text-3xl lg:text-5xl font-bold text-primary mb-4 animate-on-scroll">Why Choose Us?</h2>
+            <p className="text-xl font-bold text-secondary animate-on-scroll">Our Strengths</p>
+            <h2 className="mb-4 text-3xl font-bold lg:text-5xl text-primary animate-on-scroll">Why Choose Us?</h2>
             <div className="grid grid-rows-3 gap-8 m24-w-24">
               {reasons.map((reason, index) => (
                 <div key={index}
-                  className="grid lg:grid-cols-3 p-4 animate-on-scroll max-w-lg">
-                  <div className="flex justify-center col-span-1 items-center">
+                  className="grid max-w-lg p-4 lg:grid-cols-3 animate-on-scroll">
+                  <div className="flex items-center justify-center col-span-1">
                     {reason.icon}
                   </div>
                   <div className="col-span-2">
-                    <h3 className="text-xl font-semibold mb-4 text-primary">{reason.title}</h3>
+                    <h3 className="mb-4 text-xl font-semibold text-primary">{reason.title}</h3>
                     <p className="text-gray-600 ">{reason.description}</p>
                   </div>
                 </div>
@@ -43,7 +46,7 @@ const WhyChooseUs: React.FC = () => {
             </div>
           </div>
           <div className="h-full animate-on-scroll">
-            <img src='/trains7.jpg' alt="image of Vessel" className="h-full object-cover rounded-xl" />
+            <img src='/trains7.jpg' alt="image of Vessel" className="object-cover h-full rounded-xl animate-on-scroll" />
           </div>
         </div>
       </div>
