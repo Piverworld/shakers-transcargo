@@ -1,23 +1,24 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Knowledgebase from "./components/Knowledgebase";
-import WhyChooseUs from "./components/WhyChooseUs";
-import GetQuote from "./components/GetQuote";
-import Footer from "./components/Footer";
-import OurStrengths from "./components/OurStrengths";
+import Contact from "./components/sections/Contact";
+import Footer from "./components/sections/Footer";
+import Header from "./components/sections/Header";
+import Hero from "./components/sections/Hero";
+import Mission from "./components/sections/Mission";
+import References from "./components/sections/Reference";
+import Services from "./components/sections/Services";
+import Team from "./components/sections/Team";
+
 
 function App() {
   return (
     <div className="font-dm-sans">
-      <Navbar />
-      <main className="pt-16">
+      <Header />
+      <main className="pt-16 max-w-[1280px]">
         <Hero />
-        <About />
-        <Knowledgebase />
-        <OurStrengths />
-        <WhyChooseUs />
-        <GetQuote />
+        <Services />
+        <Mission />
+        <Team />
+        <References />
+        <Contact />
       </main>
       <Footer />
     </div>
