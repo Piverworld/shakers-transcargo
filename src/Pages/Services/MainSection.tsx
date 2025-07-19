@@ -21,9 +21,9 @@ const MainSection = () => {
                             <div className="divide-y divide-gray-200">
                                 {data.services.map(service => <Link key={service.name}
                                     to={`/leistungen/${service.name}`}
-                                    className={`block px-6 py-4 font-medium text-brand-gray transition-colors truncate text-nowrap ${service.name === params.name ? 'bg-gray-100' : 'hover:bg-gray-100'}`}
+                                    className={`block px-6 py-4 font-medium text-brand-gray transition-colors truncate text-nowrap ${service.name === params.name ? 'bg-brand-yellow text-white' : 'hover:bg-gray-100'}`}
                                 >
-                                    {service?.title}
+                                    <p className="truncate">{service?.title}</p>
                                 </Link>)}
                             </div>
                         </div>
