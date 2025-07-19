@@ -2,16 +2,6 @@ import data from "../../Pages/Services/Services.json"
 
 export default function Services() {
 
-    const services = [
-        {
-            id: 1,
-            image: 'https://ext.same-assets.com/2095656262/879380484.png',
-            title: 'Triebfahrzeugführer/in-im-Güterverkehr',
-            description: 'Wir bilden Sie zum qualifizierten Triebfahrzeugführer/in aus und vermitteln Sie direkt an enommierte Bahnunternehmen. Unsere Praxisausbildung mit erfahrenen Ex-Lokführern und starken Branchenpartnern macht\'s möglich – für Ihren erfolgreichen Start auf Schienen!',
-            name: 'triebfahrzeugfuehrer-in-im-gueterverkehr'
-        }
-    ]
-
     return (
         <section id="leistungen" className="relative py-20 max-md:py-32 bg-gray-50">
             <div className="container relative z-20 px-4 mx-auto">
@@ -57,7 +47,7 @@ export default function Services() {
                 </div>
 
                 {/* Services grid */}
-                <div className="grid gap-8 mb-16 md:grid-cols-2">
+                <div id="uber-uns" className="grid gap-8 mb-16 md:grid-cols-2">
                     {/* Left: Mission text */}
                     <div>
                         <div className="mb-8 max-md:text-center">
