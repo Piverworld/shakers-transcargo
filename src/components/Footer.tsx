@@ -54,13 +54,13 @@ const Footer: React.FC = () => {
                 <a
                   href="#get-quote"
                   className="hover:text-[#FF6F3D] transition duration-300">
-                  Contact
+                  kontakt
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="mb-4 text-xl font-semibold">Contact Us</h3>
+            <h3 className="mb-4 text-xl font-semibold">kontakt Us</h3>
             <p className="mb-6 text-white">
               We're here to answer any questions you may have about our
               services. Reach out to us and we'll respond as soon as we can.

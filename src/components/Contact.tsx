@@ -1,11 +1,11 @@
 import React from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
-const Contact: React.FC = () => {
+const kontakt: React.FC = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="kontakt" className="py-20 bg-white">
       <div className="container px-4 mx-auto max-width-1140">
-        <h2 className="text-4xl font-bold text-center text-[#000066] mb-12">Contact Us</h2>
+        <h2 className="text-4xl font-bold text-center text-[#000066] mb-12">kontakt Us</h2>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
           <div>
             <h3 className="mb-4 text-2xl font-semibold">Get in Touch</h3>
@@ -44,4 +44,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default kontakt;

@@ -1,6 +1,6 @@
-export default function Contact() {
+export default function Kontakt() {
     return (
-        <section id="contact" className="relative py-20 bg-white">
+        <section id="kontakt" className="relative py-20 bg-white">
             <div className="w-fit h-fit">
                 <img src="/world_snippet.png" alt="World Map Silhouette" width={600} height={800} className="absolute top-72 -left-40" />
             </div>
@@ -8,13 +8,13 @@ export default function Contact() {
 
                 <div className="grid gap-12 lg:grid-cols-2">
 
-                    {/* Left side - Contact information */}
+                    {/* Left side - kontakt information */}
                     <div className="p-8 text-white rounded-lg bg-brand-yellow">
                         <h2 className="mb-8 text-3xl font-bold">Anschrift</h2>
 
                         <div className="space-y-6">
                             <div>
-                                <h3 className="mb-4 text-2xl font-bold">SM Frachtlogistik GmbH</h3>
+                                <h3 className="mb-4 text-2xl font-bold">Shakers Transcargo</h3>
                                 <p className="text-lg">
                                     Kaiser-Friedrich-Straße 106<br />
                                     47169 Duisburg
@@ -25,8 +25,8 @@ export default function Contact() {
                                 <span className="text-2xl">📧</span>
                                 <div>
                                     <p className="font-semibold">E-mail:</p>
-                                    <a href="mailto:kontakt@smfrachtlogistik.de" className="hover:underline">
-                                        kontakt@smfrachtlogistik.de
+                                    <a href="mailto:info@shakerstranscargo.de" className="hover:underline">
+                                        info@shakerstranscargo.de
                                     </a>
                                 </div>
                             </div>
@@ -35,8 +35,8 @@ export default function Contact() {
                                 <span className="text-2xl">📞</span>
                                 <div>
                                     <p className="font-semibold">Telefon:</p>
-                                    <a href="tel:+4916050742799" className="hover:underline">
-                                        +49 160 507 42 79
+                                    <a href="tel:+49 1578 3515154" className="hover:underline">
+                                        +49 1578 3515154
                                     </a>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ export default function Contact() {
 
                     <p className="mt-4 text-sm text-gray-500">
                         Haben Sie eine Frage?
-                        <a href="#contact" className="ml-1 text-brand-yellow hover:underline">
+                        <a href="#kontakt" className="ml-1 text-brand-yellow hover:underline">
                             Klicken Sie hier
                         </a>
                     </p>

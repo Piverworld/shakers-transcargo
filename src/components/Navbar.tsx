@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
             <a href="#knowledgebase"
               className="text-gray-800 transition duration-300 hover:border-b-2 hover:border-secondary">Knowledgebase</a>
             <a href="#footer"
-              className="text-gray-800 transition duration-300 hover:border-b-2 hover:border-secondary">Contact</a>
+              className="text-gray-800 transition duration-300 hover:border-b-2 hover:border-secondary">kontakt</a>
           </div>
           <div
             className={`absolute xl:hidden top-20 left-0 h-svh w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition ${IsSidebarOpen ? "-translate-x-full" : "-translate-x-0"}`}
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                 className="list-none">Knowledgebase</a>
               </li>
               <li className="w-full p-8 text-center transition-all cursor-pointer active:bg-secondary active:text-white" onClick={menuHandleItem}><a href="#footer"
-                className="list-none">Contact</a>
+                className="list-none">kontakt</a>
               </li>
             </ul>
           </div>

@@ -16,8 +16,7 @@ export default function Footer() {
                             />
                         </div>
                         <p className="max-w-md mb-6 text-gray-300">
-                            Ihr Partner für erstklassiges Bahnpersonal von Lokführer bis zu Logistikspezialisten,
-                            immer passgenau und zuverlässig.
+                            Ihr Partner für erstklassiges Bahnpersonal von Lokführer bis zu Logistikspezialisten, immer passgenau und zuverlässig.
                         </p>
 
                         {/* Social icons */}
@@ -37,7 +36,7 @@ export default function Footer() {
                         </div> */}
                     </div>
 
-                    {/* Contact info */}
+                    {/* kontakt info */}
                     <div>
                         <h3 className="mb-6 text-xl font-bold">Firmenkontakt</h3>
                         <div className="space-y-4 text-gray-300">
@@ -50,7 +49,7 @@ export default function Footer() {
 
                             <div className="flex items-center space-x-3">
                                 <span>📧</span>
-                                <a href="mailto:kontakt@smfrachtlogistik.de" className="hover:text-white">
+                                <a href="mailto:info@shakerstranscargo.de" className="hover:text-white">
                                     info@shakerstranscargo.de
                                 </a>
                             </div>
@@ -58,8 +57,9 @@ export default function Footer() {
                             <div className="flex items-start space-x-3">
                                 <span>📍</span>
                                 <div>
-                                    <p>Kaiser-Friedrich-Straße 106</p>
-                                    <p>47169 Duisburg</p>
+                                    <p>Weidenstraße 17,</p>
+                                    <p> 45701 Herten,</p>
+                                    <p>Deutschland</p>
                                 </div>
                             </div>
 
@@ -76,22 +76,22 @@ export default function Footer() {
                     <div>
                         <h3 className="mb-6 text-xl font-bold">Menu</h3>
                         <nav className="space-y-3">
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="/" className="block text-gray-300 transition-colors hover:text-white">
                                 Startseite
                             </a>
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="#ueber-uns" className="block text-gray-300 transition-colors hover:text-white">
                                 Über Uns
                             </a>
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="#leistungen" className="block text-gray-300 transition-colors hover:text-white">
                                 Leistungen
                             </a>
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="#karriere" className="block text-gray-300 transition-colors hover:text-white">
                                 Jobs & Karriere
                             </a>
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="#referenzen" className="block text-gray-300 transition-colors hover:text-white">
                                 Referenzen
                             </a>
-                            <a href="#" className="block text-gray-300 transition-colors hover:text-white">
+                            <a href="#kontakt" className="block text-gray-300 transition-colors hover:text-white">
                                 Kontakt
                             </a>
                         </nav>
@@ -103,20 +103,8 @@ export default function Footer() {
                     <div className="flex flex-col items-center justify-between md:flex-row">
                         <p className="mb-4 text-sm text-gray-400 md:mb-0">
                             © 2025 Shakers Transcargo | Website entworfen von
-                            <a href="#" className="ml-1 text-brand-red hover:text-red-400">Piver World</a>
+                            <a href="https://www.piverworld.com" target="_blank" className="ml-1 text-brand-red hover:text-red-400">Piver World</a>
                         </p>
-
-                        <div className="flex space-x-6 text-sm">
-                            <a href="#" className="text-gray-400 transition-colors hover:text-white">
-                                Sitemap
-                            </a>
-                            <a href="#" className="text-gray-400 transition-colors hover:text-white">
-                                Impressum
-                            </a>
-                            <a href="#" className="text-gray-400 transition-colors hover:text-white">
-                                Datenschutz
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

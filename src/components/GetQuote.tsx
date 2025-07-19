@@ -100,7 +100,7 @@ const GetQuote: React.FC = () => {
               request and provide you with a competitive rate.
             </p>
             {/* <div className="bg-[#000066] text-white p-6 rounded-lg animate-on-scroll lg:inline-block">
-              <h3 className="mb-2 text-xl font-semibold">Contact us Today!</h3>
+              <h3 className="mb-2 text-xl font-semibold">kontakt us Today!</h3>
               <span className="flex flex-col items-start gap-4">
                 <p>Call us</p>
                 <p className="inline-flex items-center">

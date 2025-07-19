@@ -18,7 +18,7 @@ export default function Mission() {
                     <div className="order-1 lg:order-2">
                         <div className="w-16 h-1 mb-6 bg-brand-yellow"></div>
                         <h2 className="mb-6 text-4xl font-bold text-brand-yellow animate-on-scroll">
-                            Our Vision
+                            Unsere Vision
                         </h2>
                         <p className="mb-8 text-lg leading-relaxed text-brand-gray animate-on-scroll">
                             Als spezialisierter Personaldienstleister im Schienenverkehr bieten wir umfassende Services für Ihren Erfolg.
@@ -33,8 +33,8 @@ export default function Mission() {
                                 Im dynamischen Güterverkehr sind erfahrene Triebfahrzeugführer der entscheidende Erfolgsfaktor.
                                 Als spezialisierter Personaldienstleister verstehen wir die besonderen...
                             </p>
-                            <a href="#details" className="font-semibold transition-colors text-brand-yellow hover:text-red-700">
-                                Contact Us →
+                            <a href="#kontakt" className="font-semibold transition-colors text-brand-yellow hover:text-red-700">
+                                Kontaktiere uns →
                             </a>
                         </div>
                     </div>

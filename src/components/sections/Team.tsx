@@ -1,6 +1,6 @@
 export default function Team() {
     return (
-        <section className="relative py-20 overflow-hidden text-white bg-brand-black">
+        <section id="karriere" className="relative py-20 overflow-hidden text-white bg-brand-black">
             {/* Background pattern */}
             <div className="absolute inset-0 opacity-10">
                 <div className="absolute top-0 right-0 w-1/2 h-full transform skew-x-12 bg-brand-yellow translate-x-1/4"></div>
@@ -11,8 +11,8 @@ export default function Team() {
 
                     {/* Left side - Icon and content */}
                     <div className="flex-1">
-                        <div className="flex items-center mb-8">
-                            <div className="flex items-center justify-center w-16 h-16 mr-6 rounded-lg bg-brand-yellow">
+                        <div className="flex flex-col items-start justify-start gap-2 mb-8 lg:flex-row lg:items-center lg:justify-start">
+                            <div className="w-16 h-16 mr-6 rounded-lg bg-brand-yellow">
                                 <svg
                                     height="64"
                                     width="64"

@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
               <p className="mb-8 text-xl">{slide.description}</p>
               <div className="flex space-x-4">
                 <a href="#get-quote" className="bg-[#FF6F3D] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#FF8F5D] transition duration-300 animate-fade-in-up animation-delay-900 flex items-center">
-                  Contact Us <ChevronRight className="ml-2" />
+                  kontakt Us <ChevronRight className="ml-2" />
                 </a>
                 <a href="#about" className="bg-white text-[#000066] px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300 animate-fade-in-up animation-delay-900 flex items-center">
                   Learn More <ChevronRight className="ml-2" />

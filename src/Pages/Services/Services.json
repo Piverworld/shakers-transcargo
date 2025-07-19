@@ -1,0 +1,40 @@
+{
+    "services": [
+        {
+            "title": "Triebfahrzeugführer/in im Güterverkehr&quot;",
+            "name": "triebfahrzeugfuehrer-in-im-gueterverkehr",
+            "heroImage": "https://images.pexels.com/photos/9381648/pexels-photo-9381648.jpeg",
+            "heroImageAlt": "Triebfahrzeugführer/in-im-Güterverkehr",
+            "serviceImage": "https://ext.same-assets.com/2095656262/879380484.png",
+            "serviceImageAlt": "Triebfahrzeugführer/in-im-Güterverkehr",
+            "description": "Wir bilden Sie zum qualifizierten Triebfahrzeugführer/in aus und vermitteln Sie direkt an enommierte Bahnunternehmen. Unsere Praxisausbildung mit erfahrenen Ex-Lokführern und starken Branchenpartnern macht's möglich – für Ihren erfolgreichen Start auf Schienen!"
+        },
+        {
+            "title": "Triebfahrzeugführer/In Im Personenverkehr",
+            "name": "triebfahrzeugfuehrer-in-im-personenverkehr",
+            "heroImage": "https://images.pexels.com/photos/9381648/pexels-photo-9381648.jpeg",
+            "heroImageAlt": "Triebfahrzeugführer/In Im Personenverkehr",
+            "serviceImage": "https://ext.same-assets.com/2095656262/879380484.png",
+            "serviceImageAlt": "Triebfahrzeugführer/In Im Personenverkehr",
+            "description": "Description 2"
+        },
+        {
+            "title": "Lokrangierführer/In",
+            "name": "lokrangierfuehrer-in",
+            "heroImage": "https://images.pexels.com/photos/9381648/pexels-photo-9381648.jpeg",
+            "heroImageAlt": "Lokrangierführer/In",
+            "serviceImage": "https://ext.same-assets.com/2095656262/879380484.png",
+            "serviceImageAlt": "Lokrangierführer/In",
+            "description": "Description 3"
+        },
+        {
+            "title": "Karriere Als Triebfahrzeugführer/In",
+            "name": "karriere als triebfahrzeugfuehrer-in",
+            "heroImage": "https://images.pexels.com/photos/9381648/pexels-photo-9381648.jpeg",
+            "heroImageAlt": "Karriere Als Triebfahrzeugführer/In",
+            "serviceImage": "https://ext.same-assets.com/2095656262/879380484.png",
+            "serviceImageAlt": "Karriere Als Triebfahrzeugführer/In",
+            "description": "Description 4"
+        }
+    ]
+}

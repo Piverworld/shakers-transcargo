@@ -29,7 +29,7 @@ const About: React.FC = () => {
                 For years Shakers Transcargo have been passionate about providing a world-class workforce in the rail industry. As an experienced team, Shakers Transcargo understands precisely the specific challenges and requirements of the logistics and transportation industry. We are not just a personnel service provider – we are your strategic partner for sustainable personnel solutions.
               </p>
               <p className="mb-6 text-gray-700">
-                Please contact Shakers Transcargo for all railway logistics. Shakers Transcargo team will
+                Please kontakt Shakers Transcargo for all railway logistics. Shakers Transcargo team will
                 be on hand 24/7 to assist.
               </p>
             </div>
