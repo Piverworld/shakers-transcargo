@@ -22,7 +22,7 @@ function ServiceLayout() {
 
                     {/* Breadcrumb */}
                     <div className="flex flex-wrap items-center justify-center text-xs md:text-sm opacity-90">
-                        <Link to="/startseite" className="uppercase hover:underline">
+                        <Link to="/" className="uppercase hover:underline">
                             STARTSEITE
                         </Link>
                         <ChevronRight className="w-3 h-3 mx-1 md:w-4 md:h-4 md:mx-2" />

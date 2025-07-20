@@ -50,7 +50,7 @@ export default function Header() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                            <Link to={'/startseite'}>
+                            <Link to={'/'}>
                                 <img
                                     src="/shakers-transcargo-logo.png"
                                     alt="Shakers Transcargo"
@@ -66,37 +66,37 @@ export default function Header() {
                     <nav className="items-center hidden space-x-8 lg:flex">
                         <div className="relative group">
                             <Link
-                                to="/startseite"
-                                className={`${selectedTab === 'startseite' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
+                                to="/"
+                                className={`${selectedTab === '' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Startseite
                             </Link>
                         </div>
                         <div className="relative group">
-                            <a href="/startseite#uber-uns"
+                            <a href="/#uber-uns"
                                 className={`${selectedTab === 'uber-uns' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Über Uns
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/startseite#leistungen"
+                            <a href="/#leistungen"
                                 className={`${selectedTab === 'leistungen' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Leistungen
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/startseite#karriere"
+                            <a href="/#karriere"
                                 className={`${selectedTab === 'karriere' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Jobs & Karriere
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/startseite#referenzen"
+                            <a href="/#referenzen"
                                 className={`${selectedTab === 'referenzen' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Referenzen
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/startseite#kontakt"
+                            <a href="/#kontakt"
                                 className={`${selectedTab === 'kontakt' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Kontakt
                             </a>
@@ -104,7 +104,7 @@ export default function Header() {
                     </nav>
                     <div className="flex items-center gap-2">
                         {/* CTA Button */}
-                        <a href='/startseite#kontakt' className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white transition-colors bg-brand-yellow md:px-6 hover:bg-brand-yellow/60 md:text-base">
+                        <a href='/#kontakt' className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white transition-colors bg-brand-yellow md:px-6 hover:bg-brand-yellow/60 md:text-base">
                             <span className="hidden sm:inline">JETZT KONTAKT</span>
                             <span className="sm:hidden">KONTAKT</span>
                             <ArrowRight className="w-4 h-4" />
@@ -124,37 +124,37 @@ export default function Header() {
                     <div className="lg:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t sm:px-3">
                             <a
-                                href="#"
+                                href="/"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Startseite
                             </a>
                             <a
-                                href="#"
+                                href="/#uber-uns"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Über Uns
                             </a>
                             <a
-                                href="#"
+                                href="/#leistungen"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Leistungen
                             </a>
                             <a
-                                href="#"
+                                href="/#karriere"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Jobs & Karriere
                             </a>
                             <a
-                                href="#"
+                                href="/#referenzen"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Referenzen
                             </a>
                             <a
-                                href="#"
+                                href="/#kontakt"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Kontakt

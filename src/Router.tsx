@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
         element: <PageLayout />,
         children: [
             {
-                path: 'startseite',
+                path: '',
                 element: <App />,
                 index: true
             },

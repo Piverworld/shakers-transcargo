@@ -81,7 +81,7 @@ const MainSection = () => {
                                         die Zukunft des Güterverkehrs. Wir freuen uns auf Ihre
                                         Bewerbung!
                                     </p>
-                                    <a href="/startseite#kontakt" className="px-8 py-3 font-medium text-white transition-colors rounded bg-brand-yellow hover:bg-brand-yellow/80">
+                                    <a href="/#kontakt" className="px-8 py-3 font-medium text-white transition-colors rounded bg-brand-yellow hover:bg-brand-yellow/80">
                                         Jetzt bewerben
                                     </a>
                                 </div>
