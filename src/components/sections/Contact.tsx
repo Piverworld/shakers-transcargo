@@ -46,9 +46,7 @@ export default function Kontakt() {
                                 <div>
                                     <p className="mb-2 font-semibold">Öffnungszeiten:</p>
                                     <div className="space-y-1">
-                                        <p><strong>Mo-Fr:</strong> 9:00 - 18:00 Uhr</p>
-                                        <p><strong>Sa:</strong> 09:00 - 13.00 Uhr</p>
-                                        <p className="text-gray-200"><strong>So & Feiertags</strong> GESCHLOSSEN</p>
+                                        <p><strong>Mo-So:</strong> 8:00 - 18:00 Uhr</p>
                                     </div>
                                 </div>
                             </div>
