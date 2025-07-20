@@ -1,10 +1,17 @@
 import { ChevronRight } from "lucide-react"
+import { useEffect } from "react";
 import { Link, Outlet, useParams } from "react-router"
 import data from "../../Pages/Services/Services.json"
 
 function ServiceLayout() {
     const params = useParams();
     const service = data.services.find(service => service.name === params.name);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     return (
         <>
             {/* Hero Section */}

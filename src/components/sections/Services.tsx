@@ -1,8 +1,8 @@
-import { Link } from "react-router"
 import data from "../../Pages/Services/Services.json"
+import { useNavigate } from "react-router";
 
 export default function Services() {
-
+    const navigate = useNavigate();
     return (
         <section id="leistungen" className="relative py-20 max-md:py-32 bg-gray-50">
             <div className="container relative z-20 px-4 mx-auto">
@@ -96,9 +96,9 @@ export default function Services() {
                                 <p className="mb-4 text-gray-600 animate-on-scroll">
                                     {service.description}
                                 </p>
-                                <Link to={`/leistungen/${service.name}`} className="font-semibold transition-colors text-brand-yellow hover:text-red-700 animate-on-scroll">
+                                <button onClick={() => navigate(`/leistungen/${service.name}`)} className="font-semibold transition-colors text-brand-yellow hover:text-red-700 animate-on-scroll">
                                     MEHR ERFAHREN →
-                                </Link>
+                                </button>
                             </div>
                         </div>
                     ))}
