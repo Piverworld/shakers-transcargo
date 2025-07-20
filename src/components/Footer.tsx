@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, MapPin, MessageCircleMore, Phone } from "lucide-react";
 import ognLogoWhite from "/shakers-transcargo-logo white.png";
+import { Link } from "react-router";
 
 const Footer: React.FC = () => {
   return (
@@ -23,39 +24,34 @@ const Footer: React.FC = () => {
             <h3 className="mb-4 text-xl font-semibold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#home"
+                <Link to="#home"
                   className="hover:text-[#FF6F3D] transition duration-300">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about"
+                <Link to="#about"
                   className="hover:text-[#FF6F3D] transition duration-300">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#services"
+                <Link to="#services"
                   className="hover:text-[#FF6F3D] transition duration-300">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#knowledgebase"
+                <Link to="#knowledgebase"
                   className="hover:text-[#FF6F3D] transition duration-300">
                   Knowledgebase
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#get-quote"
+                <Link to="#get-quote"
                   className="hover:text-[#FF6F3D] transition duration-300">
                   kontakt
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -29,7 +29,7 @@ export default function Header() {
                             <Mail className="w-6 h-6 text-brand-yellow" />
                             <div className="flex flex-col">
                                 <span className="font-normal text-gray-600">E-Mail</span>
-                                <span className="font-semibold">info@shakerstranscargo.de</span>
+                                <a href="mailto:info@shakerstranscargo.com" className="font-semibold hover:text-brand-yellow">info@shakerstranscargo.com</a>
                             </div>
                         </div>
                         <div className="flex items-center gap-2">

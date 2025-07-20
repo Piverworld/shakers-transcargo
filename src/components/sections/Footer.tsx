@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Footer() {
     return (
         <footer className="text-white bg-brand-black">
@@ -76,24 +78,24 @@ export default function Footer() {
                     <div>
                         <h3 className="mb-6 text-xl font-bold">Menu</h3>
                         <nav className="space-y-3">
-                            <a href="/" className="block text-gray-300 transition-colors hover:text-white">
+                            <Link to="/" className="block text-gray-300 transition-colors hover:text-white">
                                 Startseite
-                            </a>
-                            <a href="#ueber-uns" className="block text-gray-300 transition-colors hover:text-white">
+                            </Link>
+                            <Link to="#ueber-uns" className="block text-gray-300 transition-colors hover:text-white">
                                 Über Uns
-                            </a>
-                            <a href="#leistungen" className="block text-gray-300 transition-colors hover:text-white">
+                            </Link>
+                            <Link to="#leistungen" className="block text-gray-300 transition-colors hover:text-white">
                                 Leistungen
-                            </a>
-                            <a href="#karriere" className="block text-gray-300 transition-colors hover:text-white">
+                            </Link>
+                            <Link to="#karriere" className="block text-gray-300 transition-colors hover:text-white">
                                 Jobs & Karriere
-                            </a>
-                            <a href="#referenzen" className="block text-gray-300 transition-colors hover:text-white">
+                            </Link>
+                            <Link to="#referenzen" className="block text-gray-300 transition-colors hover:text-white">
                                 Referenzen
-                            </a>
-                            <a href="#kontakt" className="block text-gray-300 transition-colors hover:text-white">
+                            </Link>
+                            <Link to="#kontakt" className="block text-gray-300 transition-colors hover:text-white">
                                 Kontakt
-                            </a>
+                            </Link>
                         </nav>
                     </div>
                 </div>

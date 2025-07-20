@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import data from "../../Pages/Services/Services.json"
 
 export default function Services() {
@@ -95,9 +96,9 @@ export default function Services() {
                                 <p className="mb-4 text-gray-600 animate-on-scroll">
                                     {service.description}
                                 </p>
-                                <a href={`/leistungen/${service.name}`} className="font-semibold transition-colors text-brand-yellow hover:text-red-700 animate-on-scroll">
+                                <Link to={`/leistungen/${service.name}`} className="font-semibold transition-colors text-brand-yellow hover:text-red-700 animate-on-scroll">
                                     MEHR ERFAHREN →
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}
