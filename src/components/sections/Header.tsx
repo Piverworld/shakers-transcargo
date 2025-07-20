@@ -9,10 +9,9 @@ export default function Header() {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     useEffect(() => {
-        const pathname = location.hash
-        setSelected(pathname.split('#')[1] || '')
-    }, [location.hash])
-
+        location.hash !== '' ?
+            setSelected(location.hash.split('#')[1]) : setSelected(location.pathname.split('/')[1])
+    }, [location])
     return (
         <header className="relative z-50 bg-white shadow-sm ">
             {/* Top kontakt bar - Hidden on mobile */}
@@ -23,14 +22,14 @@ export default function Header() {
                             <Phone className="w-6 h-6 text-brand-yellow" />
                             <div className="flex flex-col">
                                 <span className="font-normal text-gray-600">Kundendienst</span>
-                                <span className="font-semibold">+49 160 507 42 79</span>
+                                <a href="tel:+491605074279" className="font-semibold hover:text-brand-yellow">+49 160 507 4279</a>
                             </div>
                         </div>
                         <div className="flex items-center gap-2">
                             <Mail className="w-6 h-6 text-brand-yellow" />
                             <div className="flex flex-col">
                                 <span className="font-normal text-gray-600">E-Mail</span>
-                                <span className="font-semibold">kontakt@smfrachtlogistik.de</span>
+                                <span className="font-semibold">info@shakerstranscargo.de</span>
                             </div>
                         </div>
                         <div className="flex items-center gap-2">
@@ -51,7 +50,7 @@ export default function Header() {
                     {/* Logo */}
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
-                            <Link to={'/'}>
+                            <Link to={'/startseite'}>
                                 <img
                                     src="/shakers-transcargo-logo.png"
                                     alt="Shakers Transcargo"
@@ -67,37 +66,37 @@ export default function Header() {
                     <nav className="items-center hidden space-x-8 lg:flex">
                         <div className="relative group">
                             <Link
-                                to="/"
-                                className={`${selectedTab === '' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
+                                to="/startseite"
+                                className={`${selectedTab === 'startseite' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Startseite
                             </Link>
                         </div>
                         <div className="relative group">
-                            <a href="/#uber-uns"
+                            <a href="/startseite#uber-uns"
                                 className={`${selectedTab === 'uber-uns' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Über Uns
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/#leistungen"
+                            <a href="/startseite#leistungen"
                                 className={`${selectedTab === 'leistungen' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Leistungen
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/#karriere"
+                            <a href="/startseite#karriere"
                                 className={`${selectedTab === 'karriere' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Jobs & Karriere
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/#referenzen"
+                            <a href="/startseite#referenzen"
                                 className={`${selectedTab === 'referenzen' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Referenzen
                             </a>
                         </div>
                         <div className="relative group">
-                            <a href="/#kontakt"
+                            <a href="/startseite#kontakt"
                                 className={`${selectedTab === 'kontakt' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Kontakt
                             </a>
@@ -105,7 +104,7 @@ export default function Header() {
                     </nav>
                     <div className="flex items-center gap-2">
                         {/* CTA Button */}
-                        <a href='/#kontakt' className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white transition-colors bg-brand-yellow md:px-6 hover:bg-brand-yellow/60 md:text-base">
+                        <a href='/startseite#kontakt' className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white transition-colors bg-brand-yellow md:px-6 hover:bg-brand-yellow/60 md:text-base">
                             <span className="hidden sm:inline">JETZT KONTAKT</span>
                             <span className="sm:hidden">KONTAKT</span>
                             <ArrowRight className="w-4 h-4" />

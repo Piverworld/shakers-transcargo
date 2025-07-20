@@ -8,7 +8,7 @@ const slides = [
         description: 'Ihr Einstieg in einen zukunftssicheren Beruf beginnt bei uns: Wir bilden Sie zum qualifizierten Triebfahrzeugführer/in aus und vermitteln Sie direkt an enommierte Bahnunternehmen. Unsere Praxisausbildung mit erfahrenen Ex-Lokführern und starken Branchenpartnern macht\'s möglich – für Ihren erfolgreichen Start auf Schienen!'
     },
     {
-        background: '/trains2.jpg',
+        background: '/pexels-souvenirpixels-1598075.jpg',
         heading: 'SHAKERS TRANSCARGO',
         subheading: 'Die Besten wählen nur das Beste!',
         description: 'Höchste Effizienz und reibungsloser Betrieb – damit Ihre Transporte pünktlich und profitabel bleiben.'
@@ -27,7 +27,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section
+        <section id="startseite"
             className="relative min-h-screen">
             {/* Dark overlay */}
             {/* <div className="absolute inset-0 hero-overlay"></div> */}

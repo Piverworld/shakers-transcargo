@@ -36,10 +36,10 @@ const MainSection = () => {
                                 className="relative h-64 bg-center bg-cover"
                                 style={{
                                     backgroundImage:
-                                        `url(${service?.heroImage})`,
+                                        `url(${service?.serviceImage})`,
                                 }}
                             >
-                                <div className="absolute inset-0 flex items-end bg-gradient-to-r from-blue-900 to-blue-600">
+                                <div className="absolute inset-0 flex items-end bg-brand-black" style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
                                     <div className="p-6 text-white">
                                         <h2 className="mb-2 text-2xl font-bold">STARTEN WIR</h2>
                                         <p className="text-lg">GEMEINSAM DURCH!</p>
@@ -49,66 +49,41 @@ const MainSection = () => {
 
                             <div className="p-8">
                                 <div className="prose max-w-none">
-                                    <h2 className="mb-6 font-bold text-gray-800 text-md lg:text-2xl">
+                                    <h2 className="mb-6 text-lg font-bold text-gray-800 lg:text-xl">
                                         {service?.title}
                                     </h2>
-
                                     <p className="mb-6 leading-relaxed text-gray-700">
-                                        {service?.description}
+                                        {service?.description1}
                                     </p>
+                                    <p className="mb-6 leading-relaxed text-gray-700">
+                                        {service?.description2}
+                                    </p>
+                                    <p className="mb-6 leading-relaxed text-gray-700">
+                                        {service?.description3}
+                                    </p>
+                                    <p className="mb-6 leading-relaxed text-gray-700">
+                                        {service?.description4}
+                                    </p>
+                                    <p className="mb-6 leading-relaxed text-gray-700">
+                                        {service?.description5}
+                                    </p>
+                                    <p className="mb-6 leading-relaxed text-gray-700">
+                                        {service?.description6}
+                                    </p>
+                                </div>
 
+                                <div className="p-6 rounded-lg" style={{ backgroundColor: 'rgba(0, 0, 0, 0.03)' }}>
                                     <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                                        Ihre Aufgaben:
+                                        Interessiert?
                                     </h3>
-
-                                    <ul className="mb-6 space-y-2 text-gray-700 list-disc list-inside">
-                                        <li>
-                                            Führung von Güterzügen im regionalen und überregionalen
-                                            Verkehr
-                                        </li>
-                                        <li>
-                                            Durchführung von Fahrzeugkontrollen vor Fahrtantritt
-                                        </li>
-                                        <li>Beachtung der Signale und Verkehrsvorschriften</li>
-                                        <li>
-                                            Kommunikation mit der Betriebsleitung und anderen
-                                            Beteiligten
-                                        </li>
-                                        <li>
-                                            Dokumentation von Fahrten und besonderen Vorkommnissen
-                                        </li>
-                                    </ul>
-
-                                    <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                                        Das bringen Sie mit:
-                                    </h3>
-
-                                    <ul className="mb-8 space-y-2 text-gray-700 list-disc list-inside">
-                                        <li>
-                                            Abgeschlossene Ausbildung als Triebfahrzeugführer/in oder
-                                            Bereitschaft zur Umschulung
-                                        </li>
-                                        <li>
-                                            Gültige Triebfahrzeugführerscheine für den Güterverkehr
-                                        </li>
-                                        <li>Verantwortungsbewusstsein und Zuverlässigkeit</li>
-                                        <li>Körperliche und psychische Belastbarkeit</li>
-                                        <li>Bereitschaft zu Schichtarbeit und Wochenendarbeit</li>
-                                    </ul>
-
-                                    <div className="p-6 rounded-lg bg-brand-light-gray">
-                                        <h3 className="mb-4 text-xl font-semibold text-gray-800">
-                                            Interessiert?
-                                        </h3>
-                                        <p className="mb-4 text-gray-700">
-                                            Werden Sie Teil unseres Teams und gestalten Sie mit uns
-                                            die Zukunft des Güterverkehrs. Wir freuen uns auf Ihre
-                                            Bewerbung!
-                                        </p>
-                                        <button className="px-8 py-3 font-medium text-white transition-colors rounded bg-brand-yellow hover:bg-red-600">
-                                            Jetzt bewerben
-                                        </button>
-                                    </div>
+                                    <p className="mb-4 text-gray-700">
+                                        Werden Sie Teil unseres Teams und gestalten Sie mit uns
+                                        die Zukunft des Güterverkehrs. Wir freuen uns auf Ihre
+                                        Bewerbung!
+                                    </p>
+                                    <a href="/startseite#kontakt" className="px-8 py-3 font-medium text-white transition-colors rounded bg-brand-yellow hover:bg-brand-yellow/80">
+                                        Jetzt bewerben
+                                    </a>
                                 </div>
                             </div>
                         </div>

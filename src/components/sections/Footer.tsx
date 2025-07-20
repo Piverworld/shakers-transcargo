@@ -43,7 +43,7 @@ export default function Footer() {
                             <div className="flex items-center space-x-3">
                                 <span>📞</span>
                                 <div>
-                                    <p>+49 160 507 42 79</p>
+                                    <a href="tel:+491605074279" className="hover:text-white">+49 160 507 4279</a>
                                 </div>
                             </div>
 
@@ -102,7 +102,7 @@ export default function Footer() {
                 <div className="pt-8 border-t border-gray-700">
                     <div className="flex flex-col items-center justify-between md:flex-row">
                         <p className="mb-4 text-sm text-gray-400 md:mb-0">
-                            © 2025 Shakers Transcargo | Website entworfen von
+                            © 2025 Shakers TransCargo | Website entworfen von
                             <a href="https://www.piverworld.com" target="_blank" className="ml-1 text-brand-red hover:text-red-400">Piver World</a>
                         </p>
                     </div>

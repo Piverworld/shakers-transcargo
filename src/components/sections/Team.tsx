@@ -100,7 +100,7 @@ export default function Team() {
                             {/* You could add an image or graphic here if available */}
                             <div className="absolute inset-0 w-full h-full rounded-xl bg-gradient-to-br from-brand-yellow to-red-800 opacity-20">
                             </div>
-                            <img src="/image.png" alt="Team image" className="md:w-[94%] h-[92%] relative z-20 rounded-lg" />
+                            <img src="/pexels-pavel-danilyuk-8112090.jpg" alt="Team image" className="md:w-[94%] h-[92%] relative z-20 rounded-lg" />
                         </div>
                     </div>
                 </div>

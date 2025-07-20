@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
         element: <PageLayout />,
         children: [
             {
-                path: '',
+                path: 'startseite',
                 element: <App />,
             },
             {
@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
         ]
     },
     {
-        path: '*',
+        path: '/*',
         element: <NotFound />
     }
 ]);

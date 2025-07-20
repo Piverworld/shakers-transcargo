@@ -64,7 +64,7 @@ export default function Services() {
                         <img
                             src="/shakers-transcargo-logo.png"
                             alt="Shakers Transcargo Logistics"
-                            className="relative z-20 object-cover w-full h-64 rounded-lg shadow-lg animate-on-scroll"
+                            className="relative z-20 object-cover w-full h-64 animate-on-scroll"
                         />
                     </div>
                 </div>

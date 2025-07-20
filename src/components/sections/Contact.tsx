@@ -14,10 +14,10 @@ export default function Kontakt() {
 
                         <div className="space-y-6">
                             <div>
-                                <h3 className="mb-4 text-2xl font-bold">Shakers Transcargo</h3>
+                                <h3 className="mb-4 text-2xl font-bold">Shakers TransCargo</h3>
                                 <p className="text-lg">
-                                    Kaiser-Friedrich-Straße 106<br />
-                                    47169 Duisburg
+                                    Weidenstraße 17<br />
+                                    45701 Herten, Deutschland<br />
                                 </p>
                             </div>
 

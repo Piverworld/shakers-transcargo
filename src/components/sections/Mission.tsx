@@ -8,7 +8,7 @@ export default function Mission() {
                     {/* Left side - Train image */}
                     <div className="order-2 lg:order-1 animate-on-scroll">
                         <img
-                            src="https://ext.same-assets.com/2095656262/1691316672.jpeg"
+                            src="/pexels-markusspiske-3905831.jpg"
                             alt="Train at Railway Station"
                             className="object-cover w-full rounded-lg shadow-xl h-96"
                         />
