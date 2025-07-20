@@ -87,12 +87,9 @@ export default function Footer() {
                             <Link to="#leistungen" className="block text-gray-300 transition-colors hover:text-white">
                                 Leistungen
                             </Link>
-                            <Link to="#karriere" className="block text-gray-300 transition-colors hover:text-white">
+                            {/* <Link to="#karriere" className="block text-gray-300 transition-colors hover:text-white">
                                 Jobs & Karriere
-                            </Link>
-                            <Link to="#referenzen" className="block text-gray-300 transition-colors hover:text-white">
-                                Referenzen
-                            </Link>
+                            </Link> */}
                             <Link to="#kontakt" className="block text-gray-300 transition-colors hover:text-white">
                                 Kontakt
                             </Link>

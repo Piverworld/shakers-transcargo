@@ -83,18 +83,12 @@ export default function Header() {
                                 Leistungen
                             </a>
                         </div>
-                        <div className="relative group">
+                        {/* <div className="relative group">
                             <a href="/#karriere"
                                 className={`${selectedTab === 'karriere' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
                                 Jobs & Karriere
                             </a>
-                        </div>
-                        <div className="relative group">
-                            <a href="/#referenzen"
-                                className={`${selectedTab === 'referenzen' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
-                                Referenzen
-                            </a>
-                        </div>
+                        </div> */}
                         <div className="relative group">
                             <a href="/#kontakt"
                                 className={`${selectedTab === 'kontakt' ? 'text-brand-yellow border-b-2 border-brand-yellow' : 'text-gray-700'} transition-colors hover:text-brand-yellow`}>
@@ -141,18 +135,12 @@ export default function Header() {
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Leistungen
                             </a>
-                            <a
+                            {/* <a
                                 href="/#karriere"
                                 onClick={toggleMenu}
                                 className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
                                 Jobs & Karriere
-                            </a>
-                            <a
-                                href="/#referenzen"
-                                onClick={toggleMenu}
-                                className="block px-3 py-2 font-medium text-brand-black hover:text-brand-yellow">
-                                Referenzen
-                            </a>
+                            </a> */}
                             <a
                                 href="/#kontakt"
                                 onClick={toggleMenu}
