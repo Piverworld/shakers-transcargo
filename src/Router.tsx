@@ -13,6 +13,7 @@ export const router = createBrowserRouter([
             {
                 path: 'startseite',
                 element: <App />,
+                index: true
             },
             {
                 path: 'leistungen/',
