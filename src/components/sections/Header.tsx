@@ -22,7 +22,7 @@ export default function Header() {
                             <Phone className="w-6 h-6 text-brand-yellow" />
                             <div className="flex flex-col">
                                 <span className="font-normal text-gray-600">Kundendienst</span>
-                                <a href="tel:+491605074279" className="font-semibold hover:text-brand-yellow">+49 160 507 4279</a>
+                                <a href="tel:+4915783515154" className="font-semibold hover:text-brand-yellow">+49 1578 3515154</a>
                             </div>
                         </div>
                         <div className="flex items-center gap-2">
