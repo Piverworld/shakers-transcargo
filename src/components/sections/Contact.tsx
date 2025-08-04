@@ -55,15 +55,14 @@ export default function Kontakt() {
 
                     {/* Right side - Map */}
                     <div className="overflow-hidden bg-gray-100 rounded-lg h-96 lg:h-full min-h-96">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.123456789!2d6.751234!3d51.434567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI2JzA0LjQiTiA2wrA0NScwNC40IkU!5e0!3m2!1sde!2sde!4v1234567890123"
-                            width="100%"
-                            height="100%"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.751586333476!2d7.076880876949726!3d51.6094401032435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8e56e77a76f0b%3A0x95446ddf2b449071!2sWeidenstra%C3%9Fe%2017%2C%2045701%20Herten%2C%20Germany!5e0!3m2!1sen!2sgh!4v1754328599707!5m2!1sen!2sgh"
+                            width="600"
+                            height="450"
                             style={{ border: 0 }}
-                            allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="SM Frachtlogistik Standort"
+                            title="Shakers TransCargo"
+                            lang="de"
                         ></iframe>
                     </div>
                 </div>
